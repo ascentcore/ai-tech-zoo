@@ -1,0 +1,47 @@
+{
+  "nlp": { "type": "NLP" },
+  "ner": { "type": "NLP" },
+  "natural language processing": { "type": "NLP" },
+  "nltk": { "type": "NLP" },
+  "image processing": { "type": "Image Processing" },
+  "image recognition": { "type": "Image Processing" },
+  "face recognition": { "type": "Image Processing", "concerns": "Privacy" },
+  "ocr": { "type": "Image Processing" },
+  "optical character recognition": "ocr",
+
+  "cuda": { "organization": "Nvidia" },
+  "keras": {
+    "type": "library",
+    "ref": ["Tensorflow", "CNTK", "Theano"]
+  },
+  "scikit": {
+    "type": "library",
+    "ref": ["scipy", "scikit"]
+  },
+  "scipy": {
+    "type": "library",
+    "ref": ["scipy", "scikit"]
+  },
+  "tensorflow": {
+    "organization": "Google",
+    "type": "library",
+    "framework": "Tensorflow",
+    "apache": "Apache"
+  },
+  "theano": {
+    "type": "library"
+  },
+  "pytorch": {
+    "organization": "Facebook",
+    "type": "library",
+    "framework": "PyTorch"
+  },
+  "openai": { "organization": "OpenAI" },
+  "baidu": { "organization": "Baidu" },
+  "apache": { "organization": "Apache" },
+  "microsoft": { "organization": "Microsoft" },
+  "twitter": { "organization": "Twitter" },
+  "raspberry pi": { "other": "Hardware" }
+
+ 
+}
